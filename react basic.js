@@ -53,7 +53,13 @@ vite
 // name → current value
 // setName → function to change value
 // "Vaishnavi" → initial value
-  
+
+
+import { useState } from "react"; 
+// import → Used to bring something from another file/library
+// useState → A React Hook used to store and update data in a component
+// from "react" → It is imported from the React library
+
   
 import { useState } from "react";
 
