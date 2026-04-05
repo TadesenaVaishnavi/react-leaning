@@ -79,6 +79,13 @@ function App() {
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
+          // onChange listens to input changes, e is the event object, e.target.value gets the current input value, 
+          // and setName updtes the state.
+          
+          // Input box = notebook
+          // onChange = teacher watching you write
+          // e.target.value = what you wrote
+          // setName = teacher saving it in records
     </div>
   );
 }
@@ -177,6 +184,13 @@ export default About;
 
   
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+//  BrowserRouter enables routing, Routes groups all routes, Route defines individual paths,
+//  and Link is used for navigation without page reload.
+// BrowserRouter = Road system
+// Routes = Map
+// Route = Specific road
+// Link = Vehicle to move
+
 import Home from "./Home";
 import About from "./About";
 
